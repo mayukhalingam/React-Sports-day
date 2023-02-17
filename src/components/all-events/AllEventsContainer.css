@@ -1,0 +1,16 @@
+.allEventsConatiner{
+    width: 70%;
+    min-width: 300px;
+}
+
+.Title{
+    font-size: large;
+    font-weight: bold;
+    text-decoration: underline;
+    margin: 5px;
+}
+
+.allEvents{
+    display: flex;
+    flex-wrap: wrap;
+}

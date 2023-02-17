@@ -1,0 +1,59 @@
+.cardContainer{
+    width: 250px;
+    background-color: ghostwhite;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 20px;
+    box-shadow: 5px 5px 10px darkgrey;
+}
+
+.cardDetails{
+    margin: 10px;
+    display: flex;
+}
+
+.cardCategory{
+    min-width: 60px;
+    width: 30%;
+    font-size: 70px;
+}
+
+.dividerLine{
+    border-left: 1px solid;
+    height: auto;
+}
+
+.cardInfo{
+    min-width: 145px;
+    width: 70%;
+    margin: 10px;
+}
+
+.cardInfoName{
+    font-size: large;
+    font-weight: bold;
+    width: 100%;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.cardInfoCategory{
+    font-size: small;
+    text-align: left;
+}
+
+.cardInfoTiming{
+    font-size: small;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.cardButton{
+    width: fit-content;
+    float: right;
+    background-color: green;
+    border-radius: 5px;
+    border-color: darkgreen;
+}

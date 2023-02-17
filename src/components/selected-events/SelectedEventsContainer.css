@@ -1,0 +1,27 @@
+.selectedContainer{
+    width: 30%;
+    min-width: 300px;
+    background-color: lightgrey;
+    margin: 30px;
+    border-radius: 20px;
+    height: fit-content;
+}
+
+.selectedTitle{
+    font-size: large;
+    font-weight: bold;
+    text-decoration: underline;
+    margin: 5px;
+}
+
+.selectedEvents{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.NoEventText{
+    font-size: large;
+    font-weight: bold;
+    margin: 5px;
+}
